@@ -1,0 +1,143 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PREM_ID",
+				"type": "String"
+			},
+			{
+				"name": "PREM_TYPE_CD",
+				"type": "String"
+			},
+			{
+				"name": "NUM1",
+				"type": "String"
+			},
+			{
+				"name": "ADDRESS1",
+				"type": "String"
+			},
+			{
+				"name": "ADDRESS2",
+				"type": "String"
+			},
+			{
+				"name": "ADDRESS3",
+				"type": "String"
+			},
+			{
+				"name": "ADDRESS4",
+				"type": "String"
+			},
+			{
+				"name": "POSTAL",
+				"type": "String"
+			},
+			{
+				"name": "CITY",
+				"type": "String"
+			},
+			{
+				"name": "GEO_CODE",
+				"type": "String"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "String"
+			},
+			{
+				"name": "PER_ID_PROSPECT",
+				"type": "String"
+			},
+			{
+				"name": "NUMVOIE",
+				"type": "String"
+			},
+			{
+				"name": "NUMVOIE_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "NOMVOIE",
+				"type": "String"
+			},
+			{
+				"name": "NOMVOIE_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "NBUL",
+				"type": "String"
+			},
+			{
+				"name": "NBUL_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "PROPRIET",
+				"type": "String"
+			},
+			{
+				"name": "PROPRIET_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "FORAGE",
+				"type": "String"
+			},
+			{
+				"name": "FORAGE_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "NBM3",
+				"type": "String"
+			},
+			{
+				"name": "NNBM3_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "CMTYPRES",
+				"type": "String"
+			},
+			{
+				"name": "CMTYPRES_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "CDAPE",
+				"type": "String"
+			},
+			{
+				"name": "CDAPE_DATEEFFET",
+				"type": "String"
+			},
+			{
+				"name": "CDVOIE",
+				"type": "String"
+			},
+			{
+				"name": "CDVOIE_DATEEFFET",
+				"type": "String"
+			}
+		]
+	}
+}
