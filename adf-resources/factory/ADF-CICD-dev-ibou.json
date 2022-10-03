@@ -1,0 +1,9 @@
+{
+	"name": "ADF-CICD-dev-ibou",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b6821a38-85fa-4671-8da7-4b281e2dbcc2",
+		"tenantId": "610ce9b8-fb37-42df-99d9-85f3bb801afa"
+	}
+}
